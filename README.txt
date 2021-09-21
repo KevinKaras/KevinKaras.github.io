@@ -1,44 +1,18 @@
 
 
 
-Signup Form:
+After a somewhat extended break from HTML5 UP (to work on a secret-ish new project --
+more on that later!) I'm back with a brand new design: Solid State, a slick new multi-
+pager that combines some of the ideas I've played with over at Pixelarity with an "angular"
+sort of look. Hope you dig it :)
 
-	The signup form won't actually do anything (other than report back with a "thank you" message)
-	until you tie it to either a third party service (eg. MailChimp) or your own hosted solution.
-	In either case, there are two ways to go:
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-	1. The conventional (non-AJAX) way, which pretty much comes down to pointing the form's "action"
-	attribute to your service/script URL. If you go this route, remove the entire "Signup Form" code
-	block from assets/js/main.js (since it's not needed for this approach).
+(* = not included)
 
-	-or-
-
-	2. The AJAX way. How you set this up is largely dependent on the service/solution you're using
-	so you'll need to consult their/its documentation. However, I have included some basic code
-	(under "Signup Form" in assets/js/main.js) that will at least let you interact with the
-	form itself.
-
-
-Slideshow Background:
-
-	This is pretty straightforward, but there are two JS settings you'll want to be aware of
-	(found under "Slideshow Background" in assets/js/main.js):
-
-	images
-
-		The list of images to cycle through, given in the following format:
-
-			'url': 'alignment'
-
-		Where 'url' is the image (eg. 'images/foo.jpg', 'http://somewhere.else/foo.jpg'), and
-		'alignment' is how the image should be vertically aligned ('top', 'center', or 'bottom').
-
-		Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.
-
-	delay
-
-		How long to wait between transitions (in ms). Note that this must be at least twice as long as
-		the transition speed itself (currently 3 seconds).
+AJ
+aj@lkn.io | @ajlkn
 
 
 Credits:
@@ -49,4 +23,7 @@ Credits:
 	Icons:
 		Font Awesome (fontawesome.io)
 
-	
+	Other:
+		jQuery (jquery.com)
+		
+		
