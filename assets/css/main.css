@@ -71,7 +71,10 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+.profile-photo{
+	height: 250px;
+	width: 250px;
+}
 /* Basic */
 
 	@-ms-viewport {
