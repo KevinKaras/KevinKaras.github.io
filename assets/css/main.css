@@ -3381,7 +3381,9 @@ input, select, textarea {
 		padding: 10em 0 4.75em 0 ;
 	}
 	.profile-photo{
-		border-radius: 10;
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
 	}
 
 		#banner .inner {
