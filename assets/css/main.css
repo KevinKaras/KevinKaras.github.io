@@ -3380,6 +3380,9 @@ input, select, textarea {
 	#banner {
 		padding: 10em 0 4.75em 0 ;
 	}
+	.profile-photo{
+		border-radius: 10;
+	}
 
 		#banner .inner {
 			margin: 0 auto;
