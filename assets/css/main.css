@@ -2421,8 +2421,6 @@ input, select, textarea {
 		.image img {
 			border-radius: 5px;
 			display: block;
-			height: 257px;
-			width: 257px;
 		}
 
 		.image.left, .image.right {
@@ -3380,12 +3378,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 5em 0 4.75em 0 ;
-	}
-	.profile-photo{
-		height: 200px;
-		width: 200px;
-		border-radius: 50%;
+		padding: 10em 0 4.75em 0 ;
 	}
 
 		#banner .inner {
